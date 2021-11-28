@@ -1,6 +1,5 @@
-.navbar{
-  background-color: thistle;
-  Padding-top: 1em;
+.bg-color .container-fluid{
+  Margin-top:0;
 }
 .bg-color{
   background-color: #bbb9afc9;
