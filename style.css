@@ -42,9 +42,6 @@ body{
 .highlight{
   border-bottom: 3px solid lightblue;
 }
-.container-fluid{
-  margin-top: -20px;
-}
 .wave{
   background-color: #cf6145;
 }
