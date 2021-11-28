@@ -1,0 +1,139 @@
+.navbar{
+  background-color: thistle;
+}
+.bg-color{
+  background-color: #bbb9afc9;
+}
+body{
+  overflow-x: hidden;
+}
+.tinggi{
+  min-height: 500px;
+}
+.main-container{
+  background-color: #003049;
+  position: relative;
+}
+.main-container .row{
+  padding-top: 50px;
+}
+.main-container img{
+  width: 200px ;
+}
+.main-container .text-judul{
+  color: #e7e0de;
+}
+.main-container .text-penjelasan{
+  color: #ccb9b1;
+}
+.sec-container{
+  background-color: #cf6145;
+  padding-top: 6em
+}
+.sec-container img{
+  width: 290px;
+}
+.sec-container .text-penjelasan{
+  color:#212123;  
+}
+.teks{
+  padding-top: 30px;
+}
+.highlight{
+  border-bottom: 3px solid lightblue;
+}
+.container-fluid{
+  margin-top: -20px;
+}
+.wave{
+  background-color: #cf6145;
+}
+.wave2{
+  background-color: #F77F00;
+}
+.wave3{
+  background-color: #FCBF49;
+}
+.wave4{
+  background-color: #EAE2B7;
+}
+.wave5{
+  background-color: black;
+}
+.wave{
+  margin-top: -20px;
+}
+.third-container{
+  background-color: #F77F00;
+  padding-top: 3em;
+}
+.third-container img{
+  width: 300px;
+}
+.four-container{
+  background-color: #FCBF49;
+}
+.four-container img{
+  width: 235px;
+  padding-top: 5em;
+}
+.five-container{
+  background-color: #EAE2B7;
+  padding-top: 3em;
+}
+.five-container img{
+  width: 200px;
+} 
+a{
+  text-decoration: none;
+}
+
+
+.footer{
+  margin-top: -10px;
+  min-height: 100px;
+  background-color: black;
+}
+.footer .fa{
+  color: lightblue;
+}
+.footer h2{
+  color: #eaeaea;
+}
+.footer a i{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+/* animasi */
+.navbar-nav a:hover{
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #84C8CE, 0 0 30px #84C8CE, 0 0 40px #84C8CE, 0 0 55px #84C8CE, 0 0 75px #84C8CE;
+}
+
+
+
+
+
+/* media query */
+@media screen and (min-width:768px){
+  .main-container img{
+    width: 300px;
+    padding-top: 30px;
+  }
+  .sec-container img{
+    width: 400px;
+  }
+  .third-container img{
+    width: 400px;
+  }
+  .four-container img{
+    width: 400px;
+  }
+  .five-container img{
+    width: 350px;
+  }
+}
