@@ -1,5 +1,5 @@
-.bg-color .container-fluid{
-  Margin-top:0;
+.navbar{
+  background-color: thistle;
 }
 .bg-color{
   background-color: #bbb9afc9;
@@ -9,6 +9,15 @@ body{
 }
 .tinggi{
   min-height: 500px;
+}
+.home-container{
+  background-color: #003049;
+  padding-top: 4em;
+  color: rgb(182, 179, 173);
+}
+.home-container img{
+  padding-bottom: 1em;
+  width: 255px;
 }
 .main-container{
   background-color: #003049;
@@ -101,17 +110,51 @@ a{
   margin-left: 10px;
 }
 
-
-
-
+.home-container .yellow{
+  background-color: rgb(251, 251, 102);
+  border-radius: 30px;
+  color: black;
+  padding: 0 10px;
+}
 
 
 /* animasi */
 .navbar-nav a:hover{
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #84C8CE, 0 0 30px #84C8CE, 0 0 40px #84C8CE, 0 0 55px #84C8CE, 0 0 75px #84C8CE;
 }
+.bg-arrow{
+  background-color: #003049;
+  margin-top: -1em;
+}
+.bg-arrow i{ color: white;
+   text-decoration: none; 
+}
 
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  z-index: 99;
+}
+body{
+  background-color: #003049;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 
 
@@ -132,5 +175,8 @@ a{
   }
   .five-container img{
     width: 350px;
+  }
+  .bg-arrow{
+    margin-top: -3em;
   }
 }
